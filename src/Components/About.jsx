@@ -36,7 +36,6 @@ const About = ({id}) => {
                     <button className="btn-primary">Explore Now &rarr;</button>
                 </div>
             </div>
-
             {/* slide buttons */}
             <div className="flex space-x-2 md:space-x-4 overflow-x-auto">
                 {slides.map((slide, idx) => (
@@ -46,7 +45,6 @@ const About = ({id}) => {
                     </button>
                 ))}
             </div>
-
             {/* footer stats & icons */}
             <div className="mt-6 grid grid-rows-2 gap-y-6 sm:flex sm:justify-between sm:items-center text-gray-400 text-xs md:text-sm px-2 ">
                 <div className="flex space-x-6">
