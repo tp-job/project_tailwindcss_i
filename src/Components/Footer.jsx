@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Footer = () => {
+const Footer = ({id}) => {
     return (
-        <div className="mt-20">
+        <div id={id} className="mt-20">
             <div className="text-center">
                 <div className="flex items-center gap-2 mx-auto mt-4 text-xl w-max">
                     <box-icon name='envelope' type='solid' ></box-icon>

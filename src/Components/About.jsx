@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { slides } from '../Assets/Assets';
 
-const About = () => {
+const About = ({id}) => {
     const [activeIndex, setActiveIndex] = useState(0);
     
     const handleDotClick = (index) => {
@@ -9,7 +9,7 @@ const About = () => {
     };
 
     return (
-        <div className="max-w-6xl mx-auto p-4 select-none min-h-[90vh]">
+        <div id={id} className="max-w-6xl mx-auto p-4 select-none min-h-[90vh]">
             <div className="text-center py-20 px-4">
                 <div className="mb-4">
                     <span className="bg-gray-800 text-xs px-3 py-1 rounded-full">About</span>
