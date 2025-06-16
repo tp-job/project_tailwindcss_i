@@ -13,10 +13,10 @@ const Navbar = () => {
                     </div>
                     {/* desktop menu */}
                     <div className="hidden md:flex items-center space-x-6">
-                        <a href="home" className="text-moon-deep-purple hover:text-moon-mystic-plum transition-colors">Home</a>
-                        <a href="about" className="text-moon-deep-purple hover:text-moon-mystic-plum transition-colors">About</a>
-                        <a href="services" className="text-moon-deep-purple hover:text-moon-mystic-plum transition-colors">Services</a>
-                        <a href="contact" className="text-moon-deep-purple hover:text-moon-mystic-plum transition-colors">Contact</a>
+                        <a href="#home" className="text-moon-deep-purple hover:text-moon-mystic-plum transition-colors">Home</a>
+                        <a href="#about" className="text-moon-deep-purple hover:text-moon-mystic-plum transition-colors">About</a>
+                        <a href="#services" className="text-moon-deep-purple hover:text-moon-mystic-plum transition-colors">Services</a>
+                        <a href="#contact" className="text-moon-deep-purple hover:text-moon-mystic-plum transition-colors">Contact</a>
                     </div>
                     {/* mobile menu button */}
                     <div className="md:hidden flex items-center">
