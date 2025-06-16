@@ -2,7 +2,7 @@
 
 ## General Structure
 
-This is a single-page or multi-page website designed as a **demo project** built with **React** and **Vite**, featuring everything from a homepage to a features section.
+This is a single-pag website designed as a **demo project** built with **React** and **Vite**, featuring everything from a homepage to a features section.
 
 It is hosted on **Netlify**, ensuring fast page load times and automatic **CI/CD** deployment whenever changes are pushed to Git.
 
