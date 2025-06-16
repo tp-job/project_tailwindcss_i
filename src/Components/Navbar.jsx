@@ -30,19 +30,19 @@ const Navbar = () => {
             {/* mobile menu */}
             {isMenuOpen && (
                 <div className="md:hidden px-4 pb-4 space-y-2 transition-all duration-300 ease-in-out rounded-none">
-                    <a href="home" className="block py-2 text-moon-deep-purple hover:text-moon-mystic-plum transition-colors">
+                    <a href="#home" className="block py-2 text-moon-deep-purple hover:text-moon-mystic-plum transition-colors">
                         <i className="fa-solid fa-house mr-2"></i> 
                         Home
                     </a>
-                    <a href="about" className="block py-2 text-moon-deep-purple hover:text-moon-mystic-plum transition-colors">
+                    <a href="#about" className="block py-2 text-moon-deep-purple hover:text-moon-mystic-plum transition-colors">
                         <i className="fa-solid fa-info-circle mr-2"></i> 
                         About
                     </a>
-                    <a href="services" className="block py-2 text-moon-deep-purple hover:text-moon-mystic-plum transition-colors">
+                    <a href="#services" className="block py-2 text-moon-deep-purple hover:text-moon-mystic-plum transition-colors">
                         <i className="fa-solid fa-briefcase mr-2"></i> 
                         Services
                     </a>
-                    <a href="contact" className="block py-2 text-moon-deep-purple hover:text-moon-mystic-plum transition-colors">
+                    <a href="#contact" className="block py-2 text-moon-deep-purple hover:text-moon-mystic-plum transition-colors">
                         <i className="fa-solid fa-envelope mr-2"></i> 
                         Contact
                     </a>
